@@ -1,0 +1,104 @@
+body{
+    margin:  0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.65;
+}
+p{
+    color: dimgray;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+/* Start section-area-one */
+#section-area-one{
+    background: url("images/top-banner.png");
+    background-repeat:  no-repeat;
+    overflow: hidden;
+}
+.welcome-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.welcome-area h1{}
+.welcome-area h1 span{
+    color: orange;
+}
+.welcome-area h2{}
+.welcome-area p{}
+.link-button{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+.welcome-area img{
+    width: 100%;
+    margin-top: 50px;
+}
+/* End section-area-one */
+
+/* Start section-area-two */
+#section-area-two{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.dream-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.dream-area img{
+    width: 100%;
+}
+.dream-area h1{}
+.dream-area h2{}
+.dream-area p{}
+/* End section-area-two */
+
+/* Start section-area-three */
+#section-area-three{
+    background: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+#section-area-three h1{}
+.experiences-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 5px;
+    height: 80%;
+    text-align: justify;
+    padding: 20px;
+    background:  #fff;
+}
+.border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.experiences-area h1{}
+.experiences-area h2{}
+.experiences-area p{}
+/* End section-area-three */
+
+/* Start section-area-four */
+#section-area-four{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+#section-area-four footer{
+    text-align: center;
+}
+#section-area-four p{}
+/* End section-area-four */
